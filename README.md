@@ -14,6 +14,15 @@ This repository contains my solutions for the CS771 Introduction to Machine Lear
     * I applied **Singular Value Decomposition (SVD)** to perform a rank-1 factorization, effectively isolating the individual models from the 1089-dimensional space.
     * Transformed the resulting components into valid, non-negative timing delays through algebraic substitution and zero-bounding.
 
-## Files
-* `submit.py`: Contains the core logic (`my_kernel` and `my_decode`).
-* `Major Assignment 1-2 - CS771 2025-26-I.pdf`: Detailed problem statements and mathematical foundations.
+## Repository Structure
+
+* `Major Assignment 1-2 - CS771 2025-26-I.pdf`: The detailed problem statements and mathematical foundations.
+* `Major_Project-1-2_ML_EMI_group.pdf`: The comprehensive project report covering the theoretical derivations and test results.
+
+### /Semi_Parametric_Regression
+* `semi_parametric_model.py`: Core logic for computing the custom positive-definite kernel.
+* `public_*.txt`: Training and testing datasets (video length, difficulty/popularity metrics).
+
+### /XOR_Arbiter_PUF_Inversion
+* `puf_delay_recovery.py`: The SVD and algebraic bounding logic (`my_decode`) used to recover the timing delays.
+* `public_mod.txt`: The 1089-dimensional linear models used as inputs.
