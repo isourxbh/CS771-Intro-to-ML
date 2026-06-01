@@ -16,13 +16,13 @@ This repository contains my solutions for the CS771 Introduction to Machine Lear
 
 ## Repository Structure
 
-* `Major Assignment 1-2 - CS771 2025-26-I.pdf`: The detailed problem statements and mathematical foundations.
-* `Major_Project-1-2_ML_EMI_group.pdf`: The comprehensive project report covering the theoretical derivations and test results.
+* `Assignment.pdf`: The detailed problem statements and mathematical foundations.
+* `report.pdf`: The comprehensive project report covering the theoretical derivations and test results.
 
-### /Semi_Parametric_Regression
+### /Melbo_is_Hiring
 * `semi_parametric_model.py`: Core logic for computing the custom positive-definite kernel.
 * `public_*.txt`: Training and testing datasets (video length, difficulty/popularity metrics).
 
-### /XOR_Arbiter_PUF_Inversion
+### /Delay_Recovery_in_XOR_Arbiter_PUF
 * `puf_delay_recovery.py`: The SVD and algebraic bounding logic (`my_decode`) used to recover the timing delays.
 * `public_mod.txt`: The 1089-dimensional linear models used as inputs.
